@@ -18,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ViewController *vc = [[ViewController alloc] init];
+    NSLog(@"===%@===",vc);
     return YES;
 }
 
